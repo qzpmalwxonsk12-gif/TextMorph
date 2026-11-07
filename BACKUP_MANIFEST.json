@@ -1,130 +1,142 @@
 {
   "source_files": [
     {
-      "path": "build.gradle",
-      "sha256": "a7b00ef2e57a341a971a4e0ff8cbe0857f978e53181a0a907da87b7d33d31f1e",
-      "size": 73
+      "path": ".gitignore",
+      "size": 508,
+      "sha256": "55a2c21cafbc2223cb1bfbea84eb866a6425fdd958a72aa6fddb2b03073ec00d"
     },
     {
-      "path": "build_apk.ps1",
-      "sha256": "9ed8146bc0149c3723190c0474807dd4aa9b989a22bf5d9d920361d8e22a7b4c",
-      "size": 4064
+      "path": "BACKUP_NOTES.md",
+      "size": 770,
+      "sha256": "a712dcd13fabe9cd3324e93539163752e846785c3c5da8d145aa5d1b1930659d"
     },
     {
       "path": "Patch-Any-App-On-PC.bat",
-      "sha256": "2819bb901080b71f7b0e00047ad03d67f0861a44a59ebfe6bf67631870ce6e7b",
-      "size": 78
-    },
-    {
-      "path": "pc_patcher.ps1",
-      "sha256": "694a498f0b5a83aab20bc737a6539dac14e2a577b4f9881f02e491e31f37ef04",
-      "size": 4518
-    },
-    {
-      "path": "settings.gradle",
-      "sha256": "5c4d5438a1b4322c354914925e8dbccdedd9a22524fdf554d1bdc2b0743ee400",
-      "size": 46
-    },
-    {
-      "path": "app/build.gradle",
-      "sha256": "c07f1151b98bf4d2c69ebf6f02cfe0e58ff172bd13abaee76a90c2304b6d788d",
-      "size": 414
-    },
-    {
-      "path": "app/src/main/AndroidManifest.xml",
-      "sha256": "db7ae097d07cf0773e687006747dd2016af7065330666216e9196559103b1c7d",
-      "size": 2448
-    },
-    {
-      "path": "app/src/main/assets/xposed_init",
-      "sha256": "1a08ee2723c2ad3c02c27b4b9665bb3f601174fad3b4d4b259009734609d5a04",
-      "size": 40
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/ChameleonOverlayView.java",
-      "sha256": "309d36ce4f43d69ff42fccc548be184fd0ec579bfba09bdbee350303de3f1812",
-      "size": 8059
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/ColorSampler.java",
-      "sha256": "98180781bd94afbd796de6d1b1012ab0997b060b297eb6367c58db6e12f241d4",
-      "size": 5144
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/MainActivity.java",
-      "sha256": "12e0d5a09d44428c66a1b055f0cf90601e239ad7a931301c7c5c7489c167daf4",
-      "size": 34387
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/RuleModel.java",
-      "sha256": "f13fec5d13c96d0eb966b967a7c741de64df28a39d6e9d092125b11ecc62569a",
-      "size": 5968
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/RuleStorage.java",
-      "sha256": "260d8b7bbfed15d19c09b29fd17af63aa033e374fcd5b52cc1b8742a4ef8e34d",
-      "size": 4971
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/TextMorphHook.java",
-      "sha256": "2c6826f88ef1cb7e8c283931755b067440785a2a25bac6cc13f3262e04ae3557",
-      "size": 33380
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/TextMorphRuleProvider.java",
-      "sha256": "24f513ce00072591db6ac8482a5bd4de0719b0430eb839579dcd6e9bf0288da8",
-      "size": 1726
-    },
-    {
-      "path": "app/src/main/java/com/antigravity/textmorph/TextMorphService.java",
-      "sha256": "d60aa6414c078ff50ae6de5258e7a6daa9bdc5e4b1c9a98a3a70e9802783614d",
-      "size": 39440
-    },
-    {
-      "path": "app/src/main/res/drawable/ic_launcher.xml",
-      "sha256": "9f9269a86dc2ff137a3c57bfe6c3f973b522766f1fad99d70b65293a0847db2e",
-      "size": 1179
-    },
-    {
-      "path": "app/src/main/res/values/strings.xml",
-      "sha256": "bc0a2db6e520d8aad6249b262f7658f9e68283c4d44d53603f5832bd070e2fe8",
-      "size": 338
-    },
-    {
-      "path": "app/src/main/res/xml/accessibility_service_config.xml",
-      "sha256": "46db4cd63b6d954fcc3dd217c9540851db740214b118389f086a76e12ba49efc",
-      "size": 703
-    },
-    {
-      "path": "xposed_stub/src/de/robv/android/xposed/IXposedHookLoadPackage.java",
-      "sha256": "a7bd38a13b8f0b2fa54b45fef21dcfd3a1dddc1d4834c355ef736b161dd17fc4",
-      "size": 220
-    },
-    {
-      "path": "xposed_stub/src/de/robv/android/xposed/XC_MethodHook.java",
-      "sha256": "a2e73fac20d4872962a1d1abed2df9084f65babed2758d4a90b85e03a4f0ca3d",
-      "size": 1118
-    },
-    {
-      "path": "xposed_stub/src/de/robv/android/xposed/XposedBridge.java",
-      "sha256": "f38cf584905e4259ababa9d1ba75f3d9ed31e2416b6762030e25684b1943ca36",
-      "size": 585
-    },
-    {
-      "path": "xposed_stub/src/de/robv/android/xposed/XposedHelpers.java",
-      "sha256": "57f3a409fbb7a3df0b56d6ddbe00ec6307acb9066c5a18af7ec39b046acf1d12",
-      "size": 791
-    },
-    {
-      "path": "xposed_stub/src/de/robv/android/xposed/callbacks/XC_LoadPackage.java",
-      "sha256": "227fd1a7d8ce26b7c516e74684263128907d15e362e9b0980665e1ecc83ffa41",
-      "size": 376
+      "size": 78,
+      "sha256": "2819bb901080b71f7b0e00047ad03d67f0861a44a59ebfe6bf67631870ce6e7b"
     },
     {
       "path": "README.md",
-      "sha256": "54c4274b32786d338a7fbca339e3184d7d87288cae51c3fb12d263a690c53434",
-      "size": 873
+      "size": 4082,
+      "sha256": "ac24c062c6ace74c0018ba659c97e5387365b85b928ac51ca3f9286599c20e86"
+    },
+    {
+      "path": "app/build.gradle",
+      "size": 414,
+      "sha256": "c07f1151b98bf4d2c69ebf6f02cfe0e58ff172bd13abaee76a90c2304b6d788d"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "size": 2448,
+      "sha256": "db7ae097d07cf0773e687006747dd2016af7065330666216e9196559103b1c7d"
+    },
+    {
+      "path": "app/src/main/assets/xposed_init",
+      "size": 40,
+      "sha256": "1a08ee2723c2ad3c02c27b4b9665bb3f601174fad3b4d4b259009734609d5a04"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/ChameleonOverlayView.java",
+      "size": 8059,
+      "sha256": "309d36ce4f43d69ff42fccc548be184fd0ec579bfba09bdbee350303de3f1812"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/ColorSampler.java",
+      "size": 5144,
+      "sha256": "98180781bd94afbd796de6d1b1012ab0997b060b297eb6367c58db6e12f241d4"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/MainActivity.java",
+      "size": 34387,
+      "sha256": "12e0d5a09d44428c66a1b055f0cf90601e239ad7a931301c7c5c7489c167daf4"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/RuleModel.java",
+      "size": 5968,
+      "sha256": "f13fec5d13c96d0eb966b967a7c741de64df28a39d6e9d092125b11ecc62569a"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/RuleStorage.java",
+      "size": 4971,
+      "sha256": "260d8b7bbfed15d19c09b29fd17af63aa033e374fcd5b52cc1b8742a4ef8e34d"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/TextMorphHook.java",
+      "size": 33380,
+      "sha256": "2c6826f88ef1cb7e8c283931755b067440785a2a25bac6cc13f3262e04ae3557"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/TextMorphRuleProvider.java",
+      "size": 1726,
+      "sha256": "24f513ce00072591db6ac8482a5bd4de0719b0430eb839579dcd6e9bf0288da8"
+    },
+    {
+      "path": "app/src/main/java/com/antigravity/textmorph/TextMorphService.java",
+      "size": 39440,
+      "sha256": "d60aa6414c078ff50ae6de5258e7a6daa9bdc5e4b1c9a98a3a70e9802783614d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher.xml",
+      "size": 1179,
+      "sha256": "9f9269a86dc2ff137a3c57bfe6c3f973b522766f1fad99d70b65293a0847db2e"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "size": 338,
+      "sha256": "bc0a2db6e520d8aad6249b262f7658f9e68283c4d44d53603f5832bd070e2fe8"
+    },
+    {
+      "path": "app/src/main/res/xml/accessibility_service_config.xml",
+      "size": 703,
+      "sha256": "46db4cd63b6d954fcc3dd217c9540851db740214b118389f086a76e12ba49efc"
+    },
+    {
+      "path": "build.gradle",
+      "size": 73,
+      "sha256": "a7b00ef2e57a341a971a4e0ff8cbe0857f978e53181a0a907da87b7d33d31f1e"
+    },
+    {
+      "path": "build_apk.ps1",
+      "size": 4064,
+      "sha256": "9ed8146bc0149c3723190c0474807dd4aa9b989a22bf5d9d920361d8e22a7b4c"
+    },
+    {
+      "path": "pc_patcher.ps1",
+      "size": 4518,
+      "sha256": "694a498f0b5a83aab20bc737a6539dac14e2a577b4f9881f02e491e31f37ef04"
+    },
+    {
+      "path": "settings.gradle",
+      "size": 46,
+      "sha256": "5c4d5438a1b4322c354914925e8dbccdedd9a22524fdf554d1bdc2b0743ee400"
+    },
+    {
+      "path": "xposed_stub/src/de/robv/android/xposed/IXposedHookLoadPackage.java",
+      "size": 220,
+      "sha256": "a7bd38a13b8f0b2fa54b45fef21dcfd3a1dddc1d4834c355ef736b161dd17fc4"
+    },
+    {
+      "path": "xposed_stub/src/de/robv/android/xposed/XC_MethodHook.java",
+      "size": 1118,
+      "sha256": "a2e73fac20d4872962a1d1abed2df9084f65babed2758d4a90b85e03a4f0ca3d"
+    },
+    {
+      "path": "xposed_stub/src/de/robv/android/xposed/XposedBridge.java",
+      "size": 585,
+      "sha256": "f38cf584905e4259ababa9d1ba75f3d9ed31e2416b6762030e25684b1943ca36"
+    },
+    {
+      "path": "xposed_stub/src/de/robv/android/xposed/XposedHelpers.java",
+      "size": 791,
+      "sha256": "57f3a409fbb7a3df0b56d6ddbe00ec6307acb9066c5a18af7ec39b046acf1d12"
+    },
+    {
+      "path": "xposed_stub/src/de/robv/android/xposed/callbacks/XC_LoadPackage.java",
+      "size": 376,
+      "sha256": "227fd1a7d8ce26b7c516e74684263128907d15e362e9b0980665e1ecc83ffa41"
     }
   ],
-  "hash_basis": "Prepared source bytes before Git line-ending normalization and README notice prefixes."
+  "hash_basis": "Prepared source bytes before Git line-ending normalization and README notice prefixes.",
+  "last_reviewed": "2026-11-07",
+  "manifest_scope": "Current reviewed source snapshot, excluding this manifest itself and untracked generated outputs."
 }
