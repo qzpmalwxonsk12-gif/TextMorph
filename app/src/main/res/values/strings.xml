@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TextMorph</string>
+    <string name="service_label">TextMorph Visual Text Replacer</string>
+    <string name="service_description">Replaces text visually on screen across apps using local client-side rules and live tap-to-edit overlays.</string>
+</resources>
